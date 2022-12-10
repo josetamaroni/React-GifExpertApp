@@ -14,6 +14,7 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .card{
     align-content: center;
@@ -23,7 +24,7 @@ body{
     box-shadow: 5px 5px 5px gray;
     margin: 10px;
     overflow: hidden;
-    max-width: 250px;
+    max-width: 350px;
     max-height: 250px;
 }
 .card > p {
@@ -32,6 +33,6 @@ body{
     padding: 5px;
 }
 .card > img {
-    max-height: 170px;
+    max-height: 180px;
     width: 100%;
 }
