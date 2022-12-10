@@ -10,7 +10,7 @@ export const shareGifs = (objeto) => {
     navigator
         .share(objeto)
         .then(()=> console.log('Successful share'))
-        .catch(err => console.log('Error sharing', err));
+        .catch(err => alert('Does not support sharing', err));
   } else {
     alert('Does not support sharing')
     console.log('Does not support sharing')
